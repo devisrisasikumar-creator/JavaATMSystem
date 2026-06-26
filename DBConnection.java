@@ -6,7 +6,7 @@ public class DBConnection {
 
         String url = "jdbc:mysql://localhost:3306/atmdb";
         String username = "root";
-        String password = "devisri1259";
+        String password = "YOUR_MYSQL_PASSWORD";
 
         try {
             Connection con = DriverManager.getConnection(url, username, password);

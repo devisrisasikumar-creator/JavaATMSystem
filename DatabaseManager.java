@@ -4,7 +4,7 @@ public class DatabaseManager {
 
     private static final String URL = "jdbc:mysql://localhost:3306/atmdb";
     private static final String USER = "root";
-    private static final String PASSWORD = "devisri1259";
+    private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
 
     public static Connection getConnection() throws Exception {
         return DriverManager.getConnection(URL, USER, PASSWORD);
